@@ -4,6 +4,7 @@
   "name": "Killer Wasps",
   "resources": [
     {"id":{"name":"spr_quitButtonPressed","path":"sprites/spr_quitButtonPressed/spr_quitButtonPressed.yy",},"order":5,},
+    {"id":{"name":"obj_enemySpawner","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"order":2,},
     {"id":{"name":"rm_creditsScreen","path":"rooms/rm_creditsScreen/rm_creditsScreen.yy",},"order":3,},
     {"id":{"name":"spr_creditsButtonPressed","path":"sprites/spr_creditsButtonPressed/spr_creditsButtonPressed.yy",},"order":1,},
     {"id":{"name":"obj_creditsButton","path":"objects/obj_creditsButton/obj_creditsButton.yy",},"order":0,},
@@ -16,7 +17,9 @@
     {"id":{"name":"TextController","path":"objects/TextController/TextController.yy",},"order":1,},
     {"id":{"name":"obj_instructionsButton","path":"objects/obj_instructionsButton/obj_instructionsButton.yy",},"order":1,},
     {"id":{"name":"spr_enemyBullet","path":"sprites/spr_enemyBullet/spr_enemyBullet.yy",},"order":13,},
+    {"id":{"name":"spr_powerUp","path":"sprites/spr_powerUp/spr_powerUp.yy",},"order":14,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":11,},
+    {"id":{"name":"obj_powerUP","path":"objects/obj_powerUP/obj_powerUP.yy",},"order":11,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":9,},
     {"id":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"order":10,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":7,},
