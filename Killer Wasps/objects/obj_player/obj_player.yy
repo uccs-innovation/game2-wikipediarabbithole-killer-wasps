@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "spr_barrier",
-    "path": "sprites/spr_barrier/spr_barrier.yy",
+    "name": "spr_wasp",
+    "path": "sprites/spr_wasp/spr_wasp.yy",
   },
   "solid": false,
   "visible": true,
