@@ -19,5 +19,6 @@ if(safeToPath && !isPathing){
 //Causing enemy to run away from player
 point_direction(x,y,obj_player.x,obj_player.y);
 speed = -10
-//wraps the enemy around the room
-move_wrap(1, 1, 64);
+//Clamps the enemy in the room
+x = clamp(x,100,room_width - 100);
+y = clamp(y,124,room_height - 124);
