@@ -1,8 +1,7 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 6129C019
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "obj_bullet"
-/// @DnDSaveInfo : "objectid" "obj_bullet"
-instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+/// @DnDHash : 22E4700F
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)object = instance_create_layer(x,y,"Instances",obj_bullet);$(13_10)object.image_angle += 90;"
+/// @description Execute Code
+object = instance_create_layer(x,y,"Instances",obj_bullet);
+object.image_angle += 90;

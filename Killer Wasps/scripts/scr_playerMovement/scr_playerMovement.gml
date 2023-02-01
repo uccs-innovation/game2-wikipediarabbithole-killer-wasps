@@ -23,12 +23,13 @@ function playerMovement(sprUp, sprDown, sprRight, sprLeft)
 	if (keyboard_check(ord("D")) && !keyboard_check(ord("A")))
 	{
 		hsp += 1;
-		obj_player.sprite_index = sprRight;
+		image_xscale = -1
 	}
 	else if (keyboard_check(ord("A")) && !keyboard_check(ord("D")))
 	{
 		hsp -= 1;
 		obj_player.sprite_index = sprLeft;
+		image_xscale = 1;
 	}
 
 	//update player placement
