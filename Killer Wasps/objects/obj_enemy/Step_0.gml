@@ -13,7 +13,12 @@ if(distanceToPlayer >= 400){
 }
 //Starts enemy on path again when far enough from play to be 'safe'
 if(safeToPath && !isPathing){
-	path_start(EnemyPathing,pathingSpeed,path_action_continue,false);	
+	if(path = 0){
+		path_start(EnemyPathing, pathingSpeed, path_action_continue,false);
+	}
+	else{
+		path_start(EnemyPathing2,pathingSpeed, path_action_reverse,false);	
+	}	
 	isPathing = true;
 }
 //Causing enemy to run away from player
