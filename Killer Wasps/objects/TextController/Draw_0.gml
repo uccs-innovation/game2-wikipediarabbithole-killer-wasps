@@ -195,8 +195,8 @@ if(room == rm_instructionsScreen)
 	/// @DnDArgument : "y" "350"
 	/// @DnDArgument : "xscale" "2"
 	/// @DnDArgument : "yscale" "2"
-	/// @DnDArgument : "caption" ""When you use a powerup (honeycombs), all ghosts and bullets are deleted.""
-	draw_text_transformed(room_width / 2, 350, string("When you use a powerup (honeycombs), all ghosts and bullets are deleted.") + "", 2, 2, 0);
+	/// @DnDArgument : "caption" ""When you use a powerup (up arrows), all ghosts and bullets are deleted.""
+	draw_text_transformed(room_width / 2, 350, string("When you use a powerup (up arrows), all ghosts and bullets are deleted.") + "", 2, 2, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -217,4 +217,23 @@ if(room == rm_instructionsScreen)
 	/// @DnDArgument : "yscale" "2"
 	/// @DnDArgument : "caption" ""Killing farmers increases your hive size, you need 50 to win.""
 	draw_text_transformed(room_width / 2, 400, string("Killing farmers increases your hive size, you need 50 to win.") + "", 2, 2, 0);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 20DE787E
+	/// @DnDParent : 0FCDBFDA
+	draw_set_colour($FFFFFFFF & $ffffff);
+	var l20DE787E_0=($FFFFFFFF >> 24);
+	draw_set_alpha(l20DE787E_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 6FACC7AB
+	/// @DnDParent : 0FCDBFDA
+	/// @DnDArgument : "x" "room_width / 2"
+	/// @DnDArgument : "y" "450"
+	/// @DnDArgument : "xscale" "2"
+	/// @DnDArgument : "yscale" "2"
+	/// @DnDArgument : "caption" ""When you pickup powerups, they get stored, use them with 'E'""
+	draw_text_transformed(room_width / 2, 450, string("When you pickup powerups, they get stored, use them with 'E'") + "", 2, 2, 0);
 }
