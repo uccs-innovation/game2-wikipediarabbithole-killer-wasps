@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_enemyBullet",
   "spriteId": {
-    "name": "spr_enemyBullet",
-    "path": "sprites/spr_enemyBullet/spr_enemyBullet.yy",
+    "name": "bullet",
+    "path": "sprites/bullet/bullet.yy",
   },
   "solid": false,
   "visible": true,

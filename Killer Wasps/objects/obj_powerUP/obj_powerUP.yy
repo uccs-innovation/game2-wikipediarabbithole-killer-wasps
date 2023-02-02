@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_powerUP",
   "spriteId": {
-    "name": "spr_powerUp",
-    "path": "sprites/spr_powerUp/spr_powerUp.yy",
+    "name": "HoneyComb",
+    "path": "sprites/HoneyComb/HoneyComb.yy",
   },
   "solid": false,
   "visible": true,

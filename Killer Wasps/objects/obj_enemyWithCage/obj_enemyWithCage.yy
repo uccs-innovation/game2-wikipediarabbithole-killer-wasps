@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_enemyWithCage",
   "spriteId": {
-    "name": "spr_farmerHoldingCage",
-    "path": "sprites/spr_farmerHoldingCage/spr_farmerHoldingCage.yy",
+    "name": "caged_wasps",
+    "path": "sprites/caged_wasps/caged_wasps.yy",
   },
   "solid": false,
   "visible": true,
